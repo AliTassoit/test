@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Utilisez le lien CDN de Bootstrap 5.3 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <!-- Ajoutez votre propre fichier de styles Sass -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Blog de Voyage</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mon Blog de Voyage</a>
+        <!-- Ajouter le bouton de navigation pour les petits écrans -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section principale -->
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Articles -->
+        <div class="col-md-8">
+          <div class="row">
+            <!-- Article 1 -->
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <img src="image1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Titre de l'article</h5>
+                  <p class="card-text">
+                    Description de l'article. Cela pourrait être un résumé du
+                    contenu de l'article.
+                  </p>
+                  <a href="#" class="btn btn-primary">Lire la suite</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <img src="image2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Titre de l'article</h5>
+                  <p class="card-text">
+                    Description de l'article. Cela pourrait être un résumé du
+                    contenu de l'article.
+                  </p>
+                  <a href="#" class="btn btn-primary">Lire la suite</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">À propos de moi</h5>
+              <p class="card-text">
+                Une courte description de l'auteur du blog et de ses aventures
+                de voyage.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-light text-center p-3 mt-5">
+      <p>&copy; 2024 Mon Blog de Voyage</p>
+    </footer>
+
+    <!-- Ajouter les liens vers Bootstrap JS et Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
